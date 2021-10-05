@@ -1,0 +1,79 @@
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+body {
+  font-family: sans-serif;
+  line-height: 1;
+  background-color: #E4A4A4;
+  font-family: "Space Mono", monospace;
+  font-weight: 400;
+}
+
+nav a {
+  text-decoration: none;
+  font-size: 2.5vw;
+  display: inline-block;
+  margin-top: 1.25vw;
+  margin-left: 3vw;
+}
+
+nav {
+  float: right;
+  margin-right: 9vw;
+}
+
+a:visited {
+  color: white;
+}
+
+a:hover {
+  color: #85ACDB;
+  text-decoration: underline wavy 0.1vw;
+  font-weight: 700;
+}
+
+header {
+  background-color: #D06F6F;
+  padding: 4vw;
+  margin-top: -2vw;
+  margin: -10px;
+  height: 4vw;
+  position: fixed;
+  overflow: hidden;
+  width: 100%;
+  z-index: 999;
+}
+
+h1 {
+  font-size: 4vw;
+  color: white;
+  display: inline;
+}
+
+a-scene {
+  height: 40vw;
+  width: 60vw;
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#vaporwave {
+  height: 100%;
+  width: 100%;
+  clip-path: circle(40vw at 48vw 40vw);
+  margin-top: 15vw;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.blockquote {
+  font-size: 2.5vw;
+  color: white;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  line-height: 1.5;
+}

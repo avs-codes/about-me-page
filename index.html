@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+  
+<head>
+    
+    <script src="https://aframe.io/releases/1.2.0/aframe.min.js"></script>
+
+    <title>Alex Silva is a cool guy</title>
+
+    <link rel="stylesheet" href="style.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap" rel="stylesheet"/>
+
+  </head>
+
+
+  <body>
+    
+    <header>
+     
+      <h1>
+        Alex Silva
+      </h1>
+     
+      <nav>
+        <a href="">Home</a>
+        <a href="">Work</a>
+        <a href="">Conact</a>
+      </nav>
+   
+    </header>
+
+    <img
+      id="vaporwave"
+      src="images/et-tu.png"
+    />
+
+    <div id="embedded-scene">
+      
+      <a-scene embedded>
+        
+        <a-camera position="0 0 1" look-controls.disabled></a-camera>
+
+        <a-octahedron
+          position="0 0 0"
+          rotation="30 0 0"
+          scale="0.5 0.5 0.5"
+          color="#85ACDB"
+          animation="property: rotation; to: 30 360 0; loop: true; dur: 10000"
+        ></a-octahedron>
+
+        <a-sky color="#E4A4A4"></a-sky>
+
+      </a-scene>
+
+    </div>
+
+    <p class="blockquote">
+      Hey what's goin' on big dog?  <br>
+      I'm an art person located in definitely not-overrated NYC
+    </p>
+
+  </body>
+
+</html>
